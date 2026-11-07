@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+
+# Environment Variables & Secrets
+.env
+
+# SQLite Database & ChromaDB vector database
+*.db
+*.sqlite3
+chroma_db/
+
+# Uploaded User Attachments (keep directory with .gitkeep)
+uploads/*
+!uploads/.gitkeep
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+
+# Generated CSV Exports
+all_campus_complaints.csv
+*_tickets.csv
